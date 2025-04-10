@@ -80,9 +80,3 @@
   background: var(--bg-spanish-grey);
 }
 
-
-@media (max-width: 400px) {
-  :root {
-    --fs-xxxl: 60px;
-  }
-}
