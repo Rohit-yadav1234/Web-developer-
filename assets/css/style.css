@@ -65,7 +65,6 @@ header {
 }
 /* most popular */
 .most-popular-card {
-  /* max-width: 348px; */
   width: 100%;
   border: 1px solid #616A7C;
   border-radius: 16px;
@@ -123,9 +122,10 @@ header {
 }
 .btn:hover {
   background-color: var(--color-white);
-  color: var(--color-black);
 }
-.btn {
+.btn-launch {
   width: 186px;
   height: 46px;
+  background-color: transparent;
+  border-radius: 50px;
 }
