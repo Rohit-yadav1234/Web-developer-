@@ -1,20 +1,19 @@
 :root {
-  --fs-s: 9px;
+  --fs-small:9px;
   --fs-xs: 14px;
   --fs-sm: 15px;
   --fs-md: 16px;
   --fs-lg: 17px;
   --fs-xl: 20px;
-  --fs-xxl: 40px;
-  --fs-xxxl: 65px;
+  --fs-2xl: 40px;
+  --fs-3xl: 65px;
 
   --color-white: #fff;
   --color-sky-blue: #36befe;
   --color-black: #000;
-  --color-primary: #9f9f9f;
+  --color-grey: #9f9f9f;
 
-  --bg-sky-blue: #36befe;
-  --bg-spanish-grey: #34486b;
+  --bg-spanish-grey: #354A71;
 
   --fw-regular: 300;
   --fw-medium: 400;
@@ -40,11 +39,11 @@
 .fs-xl {
   font-size: var(--fs-xl);
 }
-.fs-xxl {
-  font-size: var(--fs-xxl);
+.fs-2xl {
+  font-size: var(--fs-2xl);
 }
-.fs-xxxl {
-  font-size: var(--fs-xxxl);
+.fs-3xl {
+  font-size: var(--fs-3xl);
 }
 /* font weight */
 .fw-regular {
@@ -69,12 +68,15 @@
 .text-black {
   color: var(--color-black);
 }
+.text-grey {
+  color: var(--color-grey);
+}
 .text-pink-red {
   color: var(--color-pink-red);
 }
 /* background color */
 .bg-sky-blue {
-  background: var(--bg-sky-blue);
+  background: var(--color-sky-blue);
 }
 .bg-spanish-grey{
   background: var(--bg-spanish-grey);

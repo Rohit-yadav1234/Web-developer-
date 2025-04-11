@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,27 +6,68 @@
   list-style-type: none;
   text-decoration: none;
 }
-
-.font-tomorrow {
+body {
   font-family: Tomorrow;
 }
 .font-Bebas {
-  font-family: Bebas Neue Cyrillic;
+  font-family: "Bebas Neue Cyrillic";
 }
-.font-Begoe {
-  font-family: Segoe UI;
+.font-Segoe {
+  font-family: "Segoe UI";
+}
+@font-face {
+  font-family: "Bebas Neue Cyrillic";
+  src: url("/assets/fonts/bebasneuecyrillic.ttf");
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: url("/assets/fonts/SEGOEUI.TTF");
+}
+header {
+  background: url('/assets/images/png/bg_header_img.png') no-repeat center center/cover;
+}
+.l-h{
+  line-height: 24px;
+}
+.l-h2{
+  line-height: 100%;
+}
+.l-h1{
+  line-height: 20px;
 }
 .pt-67 {
   padding-top: 67px;
 }
+.pt-80 {
+  padding-top: 80px;
+}
+.pt-156 {
+  padding-top: 156px;
+}
 .pb-46 {
   padding-bottom: 46px;
+}
+.pb-130 {
+  padding-bottom: 130px;
+}
+.mb-27{
+  margin-bottom: 27px;
+}
+.mt-46 {
+  margin-top: 46px;
+}
+.mt-27 {
+  margin-top: 27px;
+}
+
+.nav-link:hover{
+  color: var(--color-sky-blue);
 }
 /* most popular */
 .most-popular-card {
   /* max-width: 348px; */
   width: 100%;
-  border: 1px solid #969696;
+  border: 1px solid #616A7C;
   border-radius: 16px;
   padding: 23px 13px;
 }
@@ -50,8 +91,8 @@
 .h-80px {
   height: 80px;
 }
-.pt-58{
-  padding-top:58px;
+.pt-58 {
+  padding-top: 58px;
 }
 /* join section */
 .bg-join-web-section {
@@ -67,7 +108,6 @@
 }
 .get-help-text {
   padding-bottom: 51px;
-  font-family: Segoe UI;
 }
 .container {
   max-width: 1120px;
@@ -80,8 +120,12 @@
 .btn {
   width: 186px;
   height: 46px;
-  font-family: Bebas Neue Cyrillic;
 }
 .btn:hover {
   background-color: var(--color-white);
+  color: var(--color-black);
+}
+.btn {
+  width: 186px;
+  height: 46px;
 }
